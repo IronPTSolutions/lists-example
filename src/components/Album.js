@@ -1,11 +1,13 @@
 import React, { Component } from 'react'
 import data from '../data/students.json'
 import AlbumItem from './AlbumItem'
+import Button from './Button'
 
 class Album extends Component {
   state = {
     students: [...data],
-    search: ''
+    search: '',
+    gender: null
   }
 
   deleteItem = (studentId) => {
@@ -21,10 +23,23 @@ class Album extends Component {
   }
 
   filterStudents = () => {
+    let students = [...this.state.students]
     if (this.state.search) {
-      return this.state.students.filter(({ name }) => name.toLowerCase().includes(this.state.search))
+      students = this.state.students.filter(({ name }) => name.toLowerCase().includes(this.state.search))
     }
-    return this.state.students
+    if (this.state.gender) {
+      students = this.state.students.filter(({ gender }) => gender === this.state.gender)
+    }
+
+    return students
+  }
+  
+  onGender = (gender) => {
+    this.setState((prevState => {
+      return {
+        gender: prevState.gender === gender ? null : gender
+      }
+    }))
   }
 
   render() {
@@ -33,11 +48,27 @@ class Album extends Component {
     return (
       <section className="Album bg-light py-5">
         <div className="container">
-          <div className="mx-auto my-5" style={{ maxWidth: '18rem' }}>
+          <div className="mx-auto mt-5 mb-3" style={{ maxWidth: '18rem' }}>
             <input
               placeholder="Type for searching..." type="text"
               className="form-control" onChange={this.onSearch}
             />
+          </div>
+
+          <div className="btn-group mb-5">
+            <Button
+              onClick={() => this.onGender('female')}
+              active={this.state.gender === 'female'}
+            >
+              Girls
+            </Button>
+
+            <Button
+              onClick={() => this.onGender('male')}
+              active={this.state.gender === 'male'}
+            >
+              Boys
+            </Button>
           </div>
 
             {students.length ? (

@@ -2,81 +2,97 @@
   {
     "id": 1,
     "name": "Alicia Parra",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "female"
   },
   {
     "id": 2,
     "name": "Andrea Morales",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "female"
   },
   {
     "id": 3,
     "name": "Ángela Herrador",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "female"
   },
   {
     "id": 4,
     "name": "Carlos Martín",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 5,
     "name": "Diego Cerratos",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 6,
     "name": "Eduardo García",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 7,
     "name": "Inés de Palma",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "female"
   },
   {
     "id": 8,
     "name": "Javier Repi",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 9,
     "name": "Jorge Cisneros",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 10,
     "name": "José Luis Rodríguez",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 11,
     "name": "Luis Gallego",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 12,
     "name": "Manuel Carrillo",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 13,
     "name": "Mario Montero",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 14,
     "name": "Pedro Frías",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 15,
     "name": "Pedro Sola",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   },
   {
     "id": 16,
     "name": "Rafa García",
-    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis."
+    "description": "Lorem fistrum llevame al sircoo pecador condemor aute eiusmod duis.",
+    "gender": "male"
   }
 ]

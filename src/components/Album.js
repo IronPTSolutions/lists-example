@@ -34,7 +34,10 @@ class Album extends Component {
       <section className="Album bg-light py-5">
         <div className="container">
           <div className="mx-auto my-5" style={{ maxWidth: '18rem' }}>
-            <input type="text" className="form-control" onChange={this.onSearch} />
+            <input
+              placeholder="Type for searching..." type="text"
+              className="form-control" onChange={this.onSearch}
+            />
           </div>
 
             {students.length ? (
